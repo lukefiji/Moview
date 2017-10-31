@@ -17,36 +17,20 @@ ShallowWrapper {
     "key": null,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        Moview
-</h1>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": null,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Moview",
-      },
-      "ref": null,
-      "rendered": "Moview",
-      "type": "h1",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": null,
-      "nodeType": "host",
-      "props": Object {
-        "children": <h1>
+      "children": Array [
+        <h1>
           Moview
 </h1>,
-      },
-      "ref": null,
-      "rendered": Object {
+        <p
+          className="attribution__disclaimer"
+>
+          This product uses the TMDb API but is not endorsed or certified by TMDb.
+</p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": null,
         "nodeType": "host",
@@ -57,6 +41,64 @@ ShallowWrapper {
         "rendered": "Moview",
         "type": "h1",
       },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
+          "className": "attribution__disclaimer",
+        },
+        "ref": null,
+        "rendered": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Moview
+</h1>,
+          <p
+            className="attribution__disclaimer"
+>
+            This product uses the TMDb API but is not endorsed or certified by TMDb.
+</p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Moview",
+          },
+          "ref": null,
+          "rendered": "Moview",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
+            "className": "attribution__disclaimer",
+          },
+          "ref": null,
+          "rendered": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
+          "type": "p",
+        },
+      ],
       "type": "div",
     },
   ],
